@@ -1,0 +1,209 @@
+@charset 'utf-8';
+
+*{ 
+    margin: 0;
+    padding: 0;
+    border: none;   
+    text-decoration: none;
+    list-style-type: none;
+
+}
+body{
+    font-family: calibri;
+    background-image: url(Imagens/cenario-de-formacao-rochosa-na-orla-oceanica-do-rio-de-janeiro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: visible;
+    background-size: cover;
+}
+
+header{
+    background-color: white;
+    width: 100vw;
+    height: 100px;
+}
+
+.cabecalho{
+    display: flex;
+    width: 300px;
+    height: 100px;
+}
+
+.titulo h1 a{
+    text-decoration: none;
+    margin-top: 20px;
+     align-items: center;
+     font-family: garamond;
+     color: steelblue;
+     font-size: 40px;
+     display: flex;
+     justify-content: center;
+     width: 300px;
+     font-weight: lighter;
+}
+
+.opcoes {
+    display: flex;
+}
+
+.opcoes a {
+    font-size: 14px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color:steelblue;
+    width: 165px;
+    margin-left: 60px;
+}
+
+.opcoes a:hover{
+    color: black;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background: #ffffff6c;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.card h2 a{
+    text-decoration: none;
+    margin-top: 20px;
+     align-items: center;
+     font-family: garamond;
+     color: steelblue;
+     font-size: 40px;
+     display: flex;
+     justify-content: center;
+     width: 300px;
+     font-weight: lighter;
+}
+
+.card h1 {
+    color: #333333;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.card label {
+    color: steelblue;
+    font-family: arial;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.card input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.card input [type="radio"]{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.card select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.card input[type="submit"] {
+    background: #0056b3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card input[type="submit"]:hover {
+    background: #004494;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-top: 10px;
+    width: 280px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.mensagem {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    text-align: center;
+    color: #333;
+}
+
+.btn-retorno {
+    display: inline-block;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-top: 10px;
+    width: 280px;
+}
+
+.aux{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qwe {
+    display: flex;
+    justify-content: space-between;
+}
+
